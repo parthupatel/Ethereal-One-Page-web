@@ -57,6 +57,16 @@ div{
     border-end-end-radius: 5px green;
     
 }
+{
+    background-attachment: pink;
+    padding: 40px 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin: 40px;
+    object-position: center;
+    
+}
 p a img{
   display: inline-block;
   border-radius: 20%;
