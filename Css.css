@@ -66,6 +66,16 @@ p a img{
 
    -o-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+{
+    background-attachment: pink;
+    padding: 40px 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin: 40px;
+    object-position: center;
+    
+}
 p a img:hover{
     cursor: pointer;
   transform: rotate(45deg);
