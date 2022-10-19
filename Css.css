@@ -1,11 +1,11 @@
 html{
     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
-    font-size: 5mm;
+    font-size: 8mm;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
    
 image-resolution: inherit;
-    padding: 40px;
+    padding: 60px;
     background-repeat: no-repeat;
     text-align: center;
     
@@ -15,7 +15,7 @@ image-resolution: inherit;
     
 }
 head{
-    background-attachment: pink;
+    background-attachment: blue;
     padding: 40px 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
@@ -32,7 +32,7 @@ H1{
 
 }
 hr{
-    border: 2px dashed rgb(59, 18, 204);
+    border: 2px solid black;
     width:250px;
     margin-top: 5px;
     
@@ -54,7 +54,7 @@ div{
     box-decoration-break: clone;
     padding:50px;
     margin: 5px ;
-    border-end-end-radius: 5px green;
+    border-end-end-radius: 8px blue;
     
 }
 {
@@ -68,7 +68,7 @@ div{
     
 }
 p a img{
-  display: inline-block;
+  display: flex;
   border-radius: 20%;
   box-shadow: 10px 10px 10px rgb(202, 20, 90);
    transition-duration: 2s;
