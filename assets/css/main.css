@@ -469,7 +469,14 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
+	strong, b {
+		color: rgba(255, 255, 255, 0.875);
+		font-weight: 400;
+	}
 
+	em, i {
+		font-style: italic;
+	}
 	@media screen and (max-width: 736px) {
 
 		html {
