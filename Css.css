@@ -98,3 +98,14 @@ h1 div img{
     border-radius:15% ;
     box-shadow: 10px 10px 5px rgb(194, 46, 169);
 }
+	sub {
+		position: relative;
+		top: 0.5em;
+		font-size: 0.8em;
+	}
+
+	sup {
+		position: relative;
+		top: -0.5em;
+		font-size: 0.8em;
+	}
