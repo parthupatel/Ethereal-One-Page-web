@@ -67,6 +67,16 @@ div{
     object-position: center;
     
 }
+head{
+    background-attachment: blue;
+    padding: 40px 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin: 40px;
+    object-position: center;
+    
+}
 p a img{
   display: flex;
   border-radius: 20%;
