@@ -5,7 +5,7 @@ html{
     font-style: italic;
    
 image-resolution: inherit;
-    padding: 60px;
+    padding: 70px;
     background-repeat: no-repeat;
     text-align: center;
     
@@ -32,8 +32,8 @@ H1{
 
 }
 hr{
-    border: 2px solid black;
-    width:250px;
+    border: 2px solid sky;
+    width:275px;
     margin-top: 5px;
     
 }
