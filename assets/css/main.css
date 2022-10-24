@@ -715,6 +715,17 @@ input, select, textarea {
 	textarea {
 		padding: 0.75rem 1rem;
 	}
+	.align-left {
+		text-align: left;
+	}
+
+	.align-center {
+		text-align: center;
+	}
+
+	.align-right {
+		text-align: right;
+	}
 
 	input[type="checkbox"],
 	input[type="radio"] {
