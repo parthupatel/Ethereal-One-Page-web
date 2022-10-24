@@ -1,6 +1,6 @@
 html{
     background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
-    font-size: 8mm;
+    font-size: 7mm;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
    
@@ -16,7 +16,7 @@ image-resolution: inherit;
 }
 head{
     background-attachment: blue;
-    padding: 40px 40px;
+    padding: 50px 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
     text-align: center;
