@@ -115,7 +115,37 @@
 	@import 'base/reset';
 	@import 'base/page';
 	@import 'base/typography';
+@mixin spans-small($x) {
+		@for $i from 0 through 10 {
 
+			@if ($i > 0) {
+				.span-#{$i} {
+					width: 100%;
+				}
+			}
+
+			@if ($i < 10) {
+				.span-#{$i}-25 {
+					width: 100%;
+				}
+
+				.span-#{$i}-5 {
+					width: 100%;
+				}
+
+				.span-#{$i}-75 {
+					width: 100%;
+				}
+				.span-#{$i}-5 {
+					width: ($x * $i) + ($x * 0.5);
+				}
+
+				.span-#{$i}-75 {
+					width: ($x * $i) + ($x * 0.75);
+				}
+			}
+		}
+	}
 // Component.
 
 	@import 'components/form';
